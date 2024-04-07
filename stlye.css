@@ -81,6 +81,49 @@
             justify-content: space-between;
         }
         
+        .post {
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        
+        .post-fil {
+            display: flex;
+            width: 560px;
+            height: auto;
+            margin: 0 auto;
+            padding: 10px;
+            gap: 8px;
+        }
+        
+        .post-fil img {
+            background-color: #0866ff;
+            width: 45px;
+            border-radius: 50%;
+        }
+        
+        .post-fil input {
+            padding: 15px;
+            width: 85%;
+            border-radius: 25px;
+        }
+        
+        .post-fil-botton {
+            display: flex;
+            width: 560px;
+            height: auto;
+            margin: 0 auto;
+            padding: 15px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .post-fil-botton .pic {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        
         .news-feed {
             margin: 10px;
             min-height: 100vh;
