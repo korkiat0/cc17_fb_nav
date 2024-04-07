@@ -84,7 +84,8 @@
         .post {
             background-color: white;
             border-radius: 10px;
-            margin: 10px;
+            margin: 10px autogit init;
+            width: 560px;
         }
         
         .post-fil {
@@ -104,7 +105,7 @@
         
         .post-fil input {
             padding: 15px;
-            width: 85%;
+            width: 560px;
             border-radius: 25px;
         }
         
