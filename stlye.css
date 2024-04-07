@@ -1,93 +1,199 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    height: 56px;
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 8px;
-    box-shadow: 4px 4px 8px #ddd;
-}
-
-nav.left {
-    width: 320px;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
-
-nav.left input {
-    flex-grow: 1;
-    height: 40px;
-    border-radius: 40px;
-    border: none;
-    padding-inline: 8px;
-    font-size: 18px;
-}
-
-nav.center {
-    /* border: 1px dashed red; */
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
-nav.center .box-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 129px;
-    height: 100%;
-    border-radius: 8px;
-}
-
-nav.center .box-icon:hover {
-    background-color: #cacaca;
-}
-
-nav.right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-nav.right .round-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #e4e6eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.main-wrapper {
-    background-color: #eee;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-}
-
-.sideber-left {
-    border: 1px solid pink;
-    min-height: 100vh;
-    flex-basis: 360px;
-}
-
-.news-feed {
-    border: 1px solid pink;
-    min-height: 100vh;
-    flex-basis: 360px;
-}
-
-.sideber-right {
-    border: 1px solid pink;
-    min-height: 100vh;
-    flex-basis: 360px;
-}
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            height: 56px;
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 8px;
+            box-shadow: 4px 4px 8px #ddd;
+        }
+        
+        nav.left {
+            width: 320px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        
+        nav.left input {
+            color: #000;
+            flex-grow: 1;
+            height: 40px;
+            border-radius: 40px;
+            border: none;
+            padding-inline: 8px;
+            font-size: 18px;
+            background-color: #f0f2f5;
+        }
+        
+        nav.center {
+            /* border: 1px dashed red; */
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        nav.center .box-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 129px;
+            height: 100%;
+            border-radius: 8px;
+        }
+        
+        nav.center .box-icon:hover {
+            background-color: #cacaca;
+        }
+        
+        nav.center .box-icon svg:hover {
+            color: #0866ff;
+        }
+        
+        nav.right {
+            width: 320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        nav.right .round-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #e4e6eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        
+        .main-wrapper {
+            background-color: #eee;
+            min-height: 100vh;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .news-feed {
+            margin: 10px;
+            min-height: 100vh;
+            flex-grow: 1;
+            border: 1px solid #e6e6e6;
+        }
+        
+        .news-feed .box-news {
+            width: 560px;
+            height: auto;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+        
+        .new-top {
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .new-top .img-box {
+            gap: 5px;
+            display: flex;
+        }
+        
+        .new-top .img-box img {
+            background-color: white;
+            border-radius: 50%;
+            width: 45px;
+        }
+        
+        .top2 {
+            padding: 0px 5px 15px 5px;
+            text-align: start;
+        }
+        
+        .fil1 {
+            background-color: #ffffff;
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #cccccc;
+        }
+        
+        .fil2-2 {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .fil2 {
+            background-color: #ffffff;
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #cccccc;
+            border-radius: 10px;
+        }
+        
+        fil .sideber-right {
+            min-height: 100vh;
+            flex-basis: 320px;
+        }
+        
+        .sideber-right {
+            background-color: #f0f2f5;
+        }
+        
+        .in-rigth {
+            padding: 10px;
+        }
+        
+        .in-rigth .text-rigth {
+            width: 328px;
+            gap: 15px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .in-rigth1 .round-icon i {
+            padding: 10px;
+            font-size: 25px;
+            gap: 8px;
+        }
+        
+        .in-rigth1 .round-icon {
+            padding: 10px;
+            font-size: 25px;
+            gap: 8px;
+        }
+        
+        .sideber-left {
+            margin: 10px;
+            background-color: #f0f2f5;
+            flex-basis: 320px;
+        }
+        
+        .sideber-left .round-icon {
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 14px;
+        }
+        
+        .sideber-left .round-icon:hover {
+            background: #d1d7e0;
+            border-radius: 10px;
+        }
+        
+        .sideber-left .round-icon img {
+            width: 30px;
+            height: 30px;
+        }
